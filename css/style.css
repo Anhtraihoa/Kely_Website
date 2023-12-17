@@ -85,7 +85,7 @@
 }
 
 .nav-item a:hover {
-    background-color: black;
+    opacity: 0.7;
 }
 
 #dienthoai {
@@ -109,11 +109,12 @@
     position: absolute;
     background-color: whitesmoke;
     z-index: 5;
-    padding: 0px;
+    padding: 5px;
     margin: 0px;
     font-size: 13;
-    width: 130px;
+    width: 150px;
     list-style-type: none;
+    border-radius: 10px;
 }
 
 .menunavbar li a {
@@ -122,7 +123,7 @@
 }
 
 .menunavbar li a:hover {
-    color: rgb(39, 190, 206);
+    color: red;
 }
 
 .menunavbar li:hover .menutaikhoan {
@@ -135,11 +136,12 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
+    padding-left: 10px;
 }
 
 .resizesearch{
     height: 35px;
-    background-color: #ff9933;
+    background-color: #FFF;
     border: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;

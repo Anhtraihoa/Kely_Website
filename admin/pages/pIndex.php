@@ -1,1 +1,1 @@
-<h1>KHOA BUG Store nơi laptop không được yên thân</h1>
+<h1>Chào mừng đến trang admin của Kely Computer</h1>

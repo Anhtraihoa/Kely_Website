@@ -1,5 +1,5 @@
 <!-- bắt đầu navbar -->
-        <nav class="navbar navbar-expand-md navbar-light p-0" style="background-color: rgb(39, 190, 206);">
+        <nav class="navbar navbar-expand-md navbar-light p-0" style="background-color:red;">
         <div class="container">                                   
                     <form class="navbar-form navbar-left" action="index.php?a=8<?php 
                         $str = "";
@@ -10,11 +10,16 @@
                         if(isset($_GET['Min']) && isset($_GET['Max']))
                             $str = $str."&Min=".$_GET['Min']."&Max=".$_GET['Max'];
                         echo $str;  
-                    ?>" method="post" style="background-color: gray; padding: 10px 0px;">
-                    <div class="input-group mt-1">
-                    <a class="navbar-brand ml-1 mr-1" style="width: 100px;" href="index.php"><img style="" src="img/logokhoabug.png" alt="logo"></a>
+                    ?>" method="post" style="background-color: red; flex:2;">
+                    <div class="input-group mt-1" style="align-items:center; ">
+                    <a class="navbar-brand ml-1 mr-1"  href="index.php"><img style="width:50px" src="img/Kely_logo_no_bg.svg" alt="logo"></a>
                         <input type="text" class="resize ml-1" placeholder="Tìm sản phẩm" name="search">
-                        <button  class=" resizesearch" type="submit"><img src="img/iconsearch.png" alt=""></button>
+                        <button  class=" resizesearch" type="submit">
+                        <svg viewBox="0 0 24 24" fill="none" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg">
+								<path d="M10.9999 19C15.4182 19 18.9999 15.4183 18.9999 11C18.9999 6.58172 15.4182 3 10.9999 3C6.5816 3 2.99988 6.58172 2.99988 11C2.99988 15.4183 6.5816 19 10.9999 19Z" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+								<path d="M20.9999 21L16.6499 16.65" stroke="#111111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+							</svg>
+                        </button>
                     </div>
                     </form>                                   
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -69,7 +74,6 @@
                                 <li class="ml-2 menunguoidung text-center">
                                     <a class="nav-link pt-0" href="#">
                                         <div id="iconnguoidung"></div>
-                                        
                                         <span class="sr-only">(current)</span>
                                     </a>
 
@@ -120,12 +124,12 @@
                     </li>
 
                     
-                    <li>
+                    <!-- <li>
                         <a class="nav-link pt-0" href="#" style="background-color: red; font-weight: bold; color: white; text-align: center;">
                             199999
                             <span class="sr-only">(current)</span>
                         </a>
-                    </li>
+                    </li> -->
 
                     
     
