@@ -1,1 +1,1 @@
-<h1>KELY COMPUTER ADMIN PAGE</h1>
+<h1>KHOA BUG Store nơi laptop không được yên thân</h1>
