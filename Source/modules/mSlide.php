@@ -6,7 +6,7 @@
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="img/slide1.png" class="d-block w-100" alt="...">
+                            <img src="img/slide5.png" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
                             <img src="img/slide2.png" class="d-block w-100" alt="...">
