@@ -3,7 +3,7 @@
     {
         public static function ExecuteQuery($sql)
         {
-            $connection = mysqli_connect('localhost', 'root', '', 'qllaptop')
+            $connection = mysqli_connect('kelyserver.mysql.database.azure.com', 'kelyserver', 'Vothanhtu2002', 'kelydatabase')
                                         or die("couldn't connect to localhost");
 
             mysqli_query($connection, "set names 'utf8'");
