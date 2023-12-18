@@ -4,14 +4,14 @@
 				<div class="row">
 					<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
 						<h5 class="mb-4 font-weight-bold">VỀ CHÚNG TÔI</h5>
-						<p class="mb-4">Công ty TNHH Khoa bug</p>
+						<p class="mb-4">Công ty TNHH Kely Computer</p>
 						<ul class="f-address">
 							<li>
 								<div class="row">
 									<div class="col-1"><i class="fas fa-map-marker"></i></div>
 									<div class="col-10">
 										<h6 class="font-weight-bold mb-0">Address:</h6>
-										<p>123 Lý Thường Kiệt, Quận 10, TP HCM.</p>
+										<p>KTX Khu A ĐHQG TPHCM.</p>
 									</div>
 								</div>
 							</li>
@@ -20,7 +20,7 @@
 									<div class="col-1"><i class="far fa-envelope"></i></div>
 									<div class="col-10">
 										<h6 class="font-weight-bold mb-0">Have any questions?</h6>
-										<p><a href="#">Khoabug@bugbug.com</a></p>
+										<p><a href="#">vothanhtu.com</a></p>
 									</div>
 								</div>
 							</li>
@@ -116,7 +116,7 @@
 				<div class="row">
 					<div class="col-md-12 ">
 						<div class="text-center text-white">
-							&copy; 2018 Khoa bug company.
+							&copy; 2023 Vo Thanh Tu Inc.
 						</div>
 					</div>
 				</div>
